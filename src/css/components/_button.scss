@@ -1,0 +1,24 @@
+.btn{
+
+    &:link,
+    &:visited {
+        height: 3rem;
+        text-decoration: none;
+        padding: 15px 50px;
+        display: inline-block;
+        border-radius: 5px;
+        transition: all 0.2s;
+        position: relative;
+        background-color: $color-anthrazit;
+        color: $color-white;
+        top: 6rem;
+    }
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    }
+    &:active{
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    }
+}

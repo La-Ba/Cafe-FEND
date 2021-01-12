@@ -1,0 +1,75 @@
+.header{
+    height: 65vh;
+    background-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/FEND-Coffee-latte-art-3.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &_logobox{
+        position: absolute;
+        display: inline;
+        top: 0.625rem;
+        left: 6.438rem;
+    }
+    &-logo{
+        height: 2.188rem;
+    }
+    &_text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }    
+
+    .topnav {
+        width: 100%;
+        display: flex;
+        //overflow: hidden;
+    }
+  
+    .topnav a {
+        display: block;
+        color:$color-white;
+        text-align: center;
+        padding: 18px 33px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .topnav_shop{
+        margin-right: 76px;
+    }
+    .topnav a:hover {
+        text-decoration: underline;
+        color: $color-white
+    }
+    .topnav_logo{
+        margin-left: 100px;
+        margin-right: auto;
+    }
+  
+
+
+
+
+
+
+
+  /* Add an active class to highlight the current page 
+  .topnav a.active {
+    text-decoration: underline;
+    color: $color-white;
+  }*/
+  
+  /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+
+    
+}
+
+
+

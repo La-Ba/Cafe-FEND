@@ -1,6 +1,22 @@
-@import "variables";
-@import "base";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/function";
+
+@import "base/base";
+@import "base/typo";
+@import "base/utilities";
+
 @import "components/hero";
+@import "components/button";
+@import "components/map";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/img";
+@import "layout/section-about";
+@import "layout/section-coffeetypes";
+@import "layout/section-origin";
+
 
 :root {
   --div-color: red;

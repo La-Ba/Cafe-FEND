@@ -3,19 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"rel="stylesheet">
     <title>Index Page</title>
     <link rel="stylesheet" href="css/main.scss" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oregano"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet"/>
   </head>
   <body>
-    <include src="header.html"></include>
-    <h1>Hello World!</h1>
-    <main>
-      <a href="./my-subpage/index.html">Link to Subpage</a>
-      <div>Home</div>
+      <main>
+        
+        <header class="header">
+          <class class="topnav" id="Topnavigation">
+            <a href="#" class="topnav_logo"><img src="img/Logo-weiß.svg" alt="Logo-white" class="header_logo"></a>
+            <a href="#">das Café</a>
+            <a href="#">Herkunft</a>
+            <a href="#" class="topnav_shop">Shop</a>
+            </class>
+          <div class="header_text">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main"> Rustica</span>
+                <span class="heading-primary--sub">Bio und Fair seit 1991</span>
+            </h1>
+            <a href="#" class="btn btn-black">zum Shop</a>
+          </div>
+        </header>
+
+        <section class="section-about">
+          <div class="row">
+            <div class="col-about_1">
+              <h2 class="heading-secondary u-margin-bottom-S">Rösterei & Café</h2>
+              <p class="u-margin-bottom-S"> Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen Rösterei, serviert im gemütlichen Café in der Innenstadt.</p>
+              <div class="col-details span1">
+                <span class="col-details_1"> Komm vorbei!</span>
+                <span class="col-details_1"> Fraunhoferstr. 13, Kiel</span>
+              </div>
+              <div class="col-details">
+                <span class="col-details_1">Mo – Fr 8–18 Uhr</span>
+                <span class="col-details">Sa 11–18 Uhr</span>
+              </div>
+            </div>
+            <div class="col-about_2">
+              <img class="img_coffeeshop" src="img/FEND-Coffee-shop.jpg" alt="Coffee-Shop">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-about_1 con2">
+              <img class="img_coffeeplant" src="img/FEND-coffee-plant.jpg" alt="Coffee-Plant">
+            </div>
+            <div class="col-about_2 con2">
+              <h3 class="heading-secondary u-margin-bottom-S">Bio und Fair</h3>
+              <p class="u-margin-bottom-S"> Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. 
+                Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. 
+                Und das alles in bester Bio Qualität</p>
+            </div>
+          </div>
+        </section>
+        <section class="section-coffeetypes">
+          <h2 class="heading-secondary_white">Entdecke unsere Kaffeesorten</h2>
+          <div class="coffeetypes">
+            <img class="img_Coffee_Costa-Rica" src="img/FEND_Coffee_Costa-Rica 2.png" alt="Coffee Costa-Rica">
+            <img class="img_Coffee_Costa-Rica" src="img/FEND_Coffee_Costa-Rica 2.png" alt="Coffee Costa-Rica">
+            <img class="img_Coffee_Costa-Rica" src="img/FEND_Coffee_Costa-Rica 2.png" alt="Coffee Costa-Rica">
+            <img class="img_Coffee_Costa-Rica" src="img/FEND_Coffee_Costa-Rica 2.png" alt="Coffee Costa-Rica">
+          </div>
+        </section>
+        <section class="section-origin">
+            <h3 class="heading-tertiary">Herkunft</h3>
+            <p class="origin_text"> Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Und das alles in bester Bio Qualität.</p>
+
+        </section>
     </main>
     <script src="js/index.js"></script>
   </body>
