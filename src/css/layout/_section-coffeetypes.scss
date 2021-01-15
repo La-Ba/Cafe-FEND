@@ -2,8 +2,32 @@
     background-color: $color-anthrazit;
     padding: 125px 100px;
 
-
-    img{
+    &_heading{
         
+        max-width: 400px;
+    
+    }   
+
+    .coffeetypes{
+        display: flex;
+
+        &_details{
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        
+            .title{
+            color: $color-white;
+            margin-bottom: 7px;
+            margin-top: 20px;
+            }
+            .price{
+            color: gray;
+            margin-bottom: 7px;
+            }
+            &_icon{
+            width: 17px;
+            }
+        }
     }
 }

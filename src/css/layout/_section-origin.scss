@@ -1,13 +1,13 @@
 .section-origin{
     height: 50vh;
-    background-image: url(../img/FEND-Coffee-bags-2.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/FEND-Coffee-bags-2.jpg);
     background-size: cover;
+    background-position: center;
+    display: flex;
 
-   /* .origin_text{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    } */
+    .heading-tertiary_white{
+
+    }
+
 }

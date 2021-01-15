@@ -2,4 +2,59 @@
     background-color: $color-white;
     padding: 124px 100px 0 100px;
     //margin-bottom:200px ;
+    
+
+
+    .flex-container_1,
+    .flex-container_2{
+        display: flex;
+        
+
+        &_heading_text{
+            justify-content: space-between;
+            max-width: 500px;
+            margin-right: auto;
+            color: black;
+            
+
+            &_2{
+                
+            }
+        }
+        &_text{
+            display: flex;
+        }
+        &_text-1{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-right: auto;
+            color: black;
+           
+        }
+
+        &_text-2{
+            flex-wrap: wrap;
+            margin-right: 100px;
+            color: black;
+            
+        }
+
+        &_img_1,
+        &_img_2{
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-right: 10;
+        }
+        &_img_1{
+            margin-left: 120px;
+        }
+    }
+    .flex-container_2{
+        margin-top: 131px;
+
+         &_img{
+            margin-right: 120px;
+         }
+    }
 }
