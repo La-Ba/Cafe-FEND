@@ -1,3 +1,32 @@
 .section_ingredients{
-    
+    padding: 125px 100px;
+
+    .heading-secondary_ingredients{
+        text-align: center;
+        margin-bottom: 88px;
+    }
+    .ingredients_flexcon{
+        display: flex;
+        justify-content: center;
+
+        &_img{
+           height: 521px;
+           margin-right: 10%;
+        }
+
+        &_text{
+            height: 521px;
+
+            &_1,
+            &_2,
+            &_3{
+                align-content: space-around;
+                color: black;
+                margin: 50px 0;
+            }
+            &_1{
+                margin-top: 0px;
+            }
+        }
+    }
 }

@@ -10,6 +10,8 @@
 
     .coffeetypes{
         display: flex;
+        justify-content: center;
+        justify-content: space-between;
 
         &_details{
             flex-wrap: wrap;

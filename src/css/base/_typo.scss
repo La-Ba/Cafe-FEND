@@ -47,11 +47,12 @@ span{
         color: $color-white;
         margin-bottom: 80px;
     }
+    &_map{
+        margin-bottom: 35px;
+        margin-left: 100px;
+    }
 }
 .heading-tertiary_white{
-    color: $color-white;
-}
-.heading-tertiary{
     color: $color-white;
 
     &--main{

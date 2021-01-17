@@ -8,10 +8,11 @@
     .flex-container_1,
     .flex-container_2{
         display: flex;
+        justify-content: center;
         
 
         &_heading_text{
-            justify-content: space-between;
+            //justify-content: space-between;
             max-width: 500px;
             margin-right: auto;
             color: black;
@@ -43,7 +44,7 @@
         &_img_1,
         &_img_2{
             flex-wrap: wrap;
-            justify-content: space-between;
+            //justify-content: space-between;
             margin-right: 10;
         }
         &_img_1{
