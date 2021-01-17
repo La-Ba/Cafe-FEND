@@ -22,7 +22,27 @@
         box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     }
 
-    &_white{
-        border-color: $color-white;
+}
+.btn_coffeetypes{
+    height: 3rem;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    background-color: $color-anthrazit;
+    color: $color-white;
+    border-color: $color-white;
+    border-style: solid;
+    justify-self: center;
+    margin: 100px auto 0 auto;
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
     }
+    &:active{
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    }
+
 }
