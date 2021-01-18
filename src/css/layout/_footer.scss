@@ -2,4 +2,14 @@
     background-color: $color-anthrazit;
     padding: 125px 100px;
     direction: flex;
+
+    &_flexcon{
+        display: flex;
+        align-items: center;
+    }
+
+    &_text{
+        color: $color-white;
+        width: 155px;
+    }
 }
