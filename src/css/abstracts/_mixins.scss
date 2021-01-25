@@ -13,3 +13,38 @@
 @mixin media-xxl {
     @media (min-width: 1920px) { ... }
 }*/
+
+@mixin clearfix {
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+}
+
+//576px
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+      @media (max-width: 36em) {
+        @content;
+      }
+    }
+    //768px
+    @if $breakpoint == tab-port {
+      @media (max-width: 48em) {
+        @content;
+      }
+    }
+    //992px
+    @if $breakpoint == tab-land {
+      @media (max-width: 62em) { 
+        @content;
+      }
+    }
+    //1200px
+    @if $breakpoint == big-desktop {
+      @media (min-width: 75em) { 
+        @content;
+      }
+    }
+ }

@@ -1,0 +1,48 @@
+.topnav {
+    width: 100%;
+    display: flex;
+    //overflow: hidden;
+}
+
+.topnav a {
+    display: block;
+    color:$color-white;
+    text-align: center;
+    padding: 18px 33px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav_shop{
+    margin-right: 76px;
+}
+.topnav a:hover {
+    text-decoration: underline;
+    color: $color-white
+}
+.topnav_logo{
+    margin-left: 100px;
+    margin-right: auto;
+}
+.topnav_active {
+    text-decoration: underline;
+    color: $color-white;
+  }
+
+
+
+
+
+
+
+
+
+/* Add an active class to highlight the current page 
+.topnav a.active {
+text-decoration: underline;
+color: $color-white;
+}*/
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}

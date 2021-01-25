@@ -6,10 +6,15 @@
     &_flexcon{
         display: flex;
         align-items: center;
+        margin-right: auto;
     }
 
     &_text{
         color: $color-white;
         width: 155px;
+    }
+    a{
+        text-decoration: none;
+        color: $color-white;
     }
 }

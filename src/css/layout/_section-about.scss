@@ -6,7 +6,8 @@
 
 
     .flex-container_1,
-    .flex-container_2{
+    .flex-container_2
+    .flex-container_3{
         display: flex;
         justify-content: center;
         
@@ -57,5 +58,9 @@
          &_img{
             margin-right: 120px;
          }
+    }
+    .flex-container_3{
+        margin: 0 auto;
+        justify-self: center;
     }
 }

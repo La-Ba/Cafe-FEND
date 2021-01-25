@@ -15,7 +15,7 @@
     .origin_heading{
         margin-bottom: 35px;
     }
-    .origin_text{
+    .origin_text_home{
         width: 30vh;
         margin-bottom: 35px;
 
@@ -24,5 +24,17 @@
         text-decoration: none;
         color: $color-white;
     }
+    &_2{
+        background-image: none;
+        padding: 126px 415px;
+        text-align: left;
+        
+    }
+
+    &_video{
+        padding: 125px 100px;
+    }
+
+   
 
 }

@@ -13,8 +13,12 @@
         top: 0.625rem;
         left: 6.438rem;
     }
-    &-logo{
+    &_logo{
         height: 2.188rem;
+        
+        &_black{
+            height: 2.188rem;
+        }
     }
     &_text{
         position: absolute;
@@ -23,52 +27,21 @@
         transform: translate(-50%, -50%);
         text-align: center;
     }    
-
-    .topnav {
-        width: 100%;
-        display: flex;
-        //overflow: hidden;
+    &_2{
+        background-image: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/FEND-Coffee-shop.jpg);
     }
-  
-    .topnav a {
-        display: block;
-        color:$color-white;
-        text-align: center;
-        padding: 18px 33px;
-        text-decoration: none;
-        font-size: 17px;
+    &_3{
+        background-image: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/FEND-Coffee-beans-hand-2.jpg);
     }
-    .topnav_shop{
-        margin-right: 76px;
-    }
-    .topnav a:hover {
-        text-decoration: underline;
-        color: $color-white
-    }
-    .topnav_logo{
-        margin-left: 100px;
-        margin-right: auto;
-    }
-  
-
-
-
-
-
-
-
-  /* Add an active class to highlight the current page 
-  .topnav a.active {
-    text-decoration: underline;
-    color: $color-white;
-  }*/
-  
-  /* Hide the link that should open and close the topnav on small screens */
-    .topnav .icon {
-        display: none;
+    &_4{
+        background-image: none;
     }
 
-    
+
 }
 
 

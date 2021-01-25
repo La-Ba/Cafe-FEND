@@ -11,9 +11,17 @@ $color-ligray:rgba(233,233,233,1);
 //Grid-Variablen
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
-$gutter-horizontal: 2rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
 
 //Img-Variablen
 
 $img-width: 15.063rem;
 $img-height: 13rem;
+
+//Media-Queries-Variablen
+$media-sm: 576px;
+$media-md: 768px;
+$media-lg: 992px;
+$media-xl: 1200px;
+$media-xxl: 1920px;

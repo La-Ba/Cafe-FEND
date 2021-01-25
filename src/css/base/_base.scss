@@ -6,20 +6,33 @@
   box-sizing: border-box;
 }
 
-body {
-  background: blue;
 
-  @media (min-width: 768px) {
-    background-color: $color-white;;
-  }
+
+body {
+  box-sizing: border-box;
 }
 
 main {
-  div {
-    color: yellow;
-
-    @media (min-width: 768px) {
-      color: var(--div-color);
-    }
-  }
+  
 }
+
+/*html {
+  font-size: 60%;
+
+  @include respond(tab-land) {
+
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(phone) {
+    font-size: 56.25%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+}*/
